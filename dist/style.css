@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+html,body, div {
+    margin: 0;
+    line-height: 1.4;
+}
+a{
+    text-decoration: none;
+}
+#app{
+    display: flex;
+    padding: 40px 30px;
+    align-items: flex-start;
+}
+.categories{
+    max-width: 350px;
+    border: 1px solid orange;
+    border-radius: 10px;
+    padding: 10px 40px;
+    text-align: center;
+    margin: 0 50px 0 0 ;
+}
+.categories .item{
+    display: block;
+    margin: 0 0 5px;
+    color: orange;
+    font-size: 20px;
+    text-align: left;
+    text-transform: capitalize;
+}
+.categories .item.active{
+    color: black;
+    text-decoration: underline;
+}
+.image{
+    width: 80px;
+    height: 80px;
+    margin: 0 0 50px;
+}
+.joke{
+    max-width: 600px;
+}
+.joke p{
+    font-size: 18px;
+}
+.btn{
+    border: 1px solid currentColor;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px 20px;
+    color: orange;
+    margin: 50px 0 0;
+    background: transparent;
+}
+.showMore{
+    font-size: 14px;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 30px 0 0;
+    display: block;
+}
